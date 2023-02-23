@@ -22,6 +22,9 @@ header{
                 list-style: none;
                 a {
                         padding: 10px;
+                        color: $bk-dc;
+                        text-decoration: none;
+
                 
                         &:hover,
                         &.active {

@@ -12,7 +12,11 @@ img{
     max-width: 100%;
     height: auto;
 }
-a{
-    color: $bk-dc;
-    text-decoration: none;
+
+.text-center{
+    text-align: center;
+}
+.my-4{
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
