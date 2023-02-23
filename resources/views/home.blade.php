@@ -36,6 +36,9 @@
             <li><a href="{{route('news')}}">NEWS</a></li>
         </ul>
         </div>
+        <div class="jumbotron">
+            
+        </div>
     </header>
 </body>
 </html>

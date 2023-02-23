@@ -8,6 +8,7 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin:5px auto;
         figure{
             padding: 4px 0;
         }
@@ -32,6 +33,12 @@ header{
             }
             
         }
+    }
+    .jumbotron{
+        background-image: url('/public/images/jumbotron.jpg');
+        background-repeat: no-repeat;
+        height: 300px;
+        background-size: cover;
     }
 
 }
