@@ -6,16 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{env('APP_NAME')}} | Home </title>
     <link rel="icon" href="{{asset('images/favicon.ico')}}" >
-    
+
     @vite('resources/js/app.js')
 
 
 </head>
 <body>
     <header>
+        <div class="info-nav">
+            <div class="container">
+            <h6>DC POWER VISA</h6>
+            </div>
+        </div>
+        <div class="container nav">
         <figure>
             <a href="{{url('/')}}">
-                <img src="{{asset('images/dc-logo.png')}}" alt="logo DC">
+                <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo DC">
             </a>
         </figure>
         <ul>
@@ -29,6 +35,7 @@
             <li><a href="{{route('fans')}}">FANS</a></li>
             <li><a href="{{route('news')}}">NEWS</a></li>
         </ul>
+        </div>
     </header>
 </body>
 </html>
